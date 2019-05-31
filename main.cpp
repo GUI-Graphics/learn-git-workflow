@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void sayHello() {
     cout << "hello world" << endl;
+}
+
+int main() {
+    sayHello();
     return 0;
 }
